@@ -21,14 +21,14 @@
 
 ## Professional Objective
 
-Current student of ***JS/FE course*** looking to join the workforce to gain real-IT-world experience as a **Junior Web Developer**. Dedicated worker with excellent communication, time management and computer skills. Ability to complete tasks on time in both individual and team settings. Dependable and reliable, ready to learn and grow with your company.
+Current student of ***JS/FE course*** looking to join the workforce to gain real-IT-world experience as a **Junior Web Developer / Trainee**. Dedicated worker with excellent communication, time management and computer skills. Ability to complete tasks on time in both individual and team settings. Dependable and reliable, ready to learn and grow with your company.
 
 ***
 
 ## Experience
 
 **Technical Customer Support Specialist**\
-LLC "TVSAT plus", September 2014 - Present
+"TVSAT plus" LLC, September 2014 - Present
 
 * Entered commands and observed system functioning to verify correct operations and detect errors.
 * Conferred with users, and conducted computer diagnostics to investigate and resolve problems and to provide technical assistance and support.
@@ -48,10 +48,10 @@ August 2006 - September 2017
 
 ## Education
 
-**Bachelor of Arts (B.A) in Lingustics**, Zaoksky, Tula, Russia\
+**Bachelor of Arts (B.A) in Lingustics**, Zaoksky, Tula region, Russia\
 Zaoksky Christian Institute of Arts and Sciences, May 2017
 
-**Completed coursework towards Bachelor of Arts (B.A.) in Theology**, Zaoksky, Tula, Russia\
+**Completed coursework towards Bachelor of Arts (B.A.) in Theology**, Zaoksky, Tula region, Russia\
 Zaoksky Theological Seminary, May 2007\
 Forth-year student
 
@@ -62,13 +62,12 @@ Second-year student
 ***
 ## Skills
 
-`VS Code` `Git, GitHub` `JavaScript - Basics` `HTML5 - Basics` `CSS - Basics` `Customer Data Confidentiality` `Courteous with Strong Service Mindset` `Calm and Professional Under Pressure` `Collaborative Team Player` `Microsoft Windows and Office` `Remote Technical Support` `Active Learning`
+`VS Code` `Git, GitHub` `JavaScript - Basics` `HTML5 - Basics` `CSS - Basics` `Customer Data Confidentiality` `Collaborative Team Player` `Courteous with Strong Service Mindset` `Calm and Professional Under Pressure` `Microsoft Windows and Office` `Remote Technical Support` `Active Learning`
 
 ***
 ## Code Example
 
-**Multiply KATA from CODEWARS:**\
-during registration process
+**Multiply KATA from CODEWARS:** (*during registration process*)
 
 ```
 function multiply(a, b){
@@ -85,12 +84,12 @@ function multiply(a, b){
 ***
 ## Languages
 
-**Russian** - `Native`              **English** - `Advanced`
+**Russian** - `Native` **English** - `Advanced/Proficient`
 
 ## Certifications
 
-* English - Proficient (C2) - [EF SET](https://www.efset.org/ef-set-50)\
+* English - Proficient (C2) - [EF SET](https://www.efset.org/ef-set-50) - October 2022\
 ![EF SET Scrore](/images/EFSET-Score-C2.jpg)
 
-* English - Advanced (C1) - [Cambridge ESOL](https://www.cambridgeenglish.org/exams-and-tests/advanced/)\
+* English - Advanced (C1) - [Cambridge ESOL](https://www.cambridgeenglish.org/exams-and-tests/advanced/) - June 2010\
 ![CAE](/images/Cambridge-ESOL-CAE-excerpts.jpg)
