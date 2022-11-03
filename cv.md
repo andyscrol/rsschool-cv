@@ -7,7 +7,7 @@
 
 **Location:** Kobryn, Belarus
 
-**Phone:** [+375292530547](tel:+375292530547)
+**Phone:** [+375292530547](callto:+375292530547)
 
 **E-mail:** [alexey_larin@hotmail.com](mailto:alexey_larin@hotmail.com)
 
@@ -21,7 +21,7 @@
 
 ## Professional Objective
 
-Current student of *JS/FE* course looking to join the workforce to gain real-IT-world experience. Dedicated worker with excellent communication, time management and computer skills. Ability to complete tasks on time in both individual and team settings. Dependable and reliable, ready to learn and grow with your company.
+Current student of ***JS/FE course*** looking to join the workforce to gain real-IT-world experience as a **Junior Web Developer**. Dedicated worker with excellent communication, time management and computer skills. Ability to complete tasks on time in both individual and team settings. Dependable and reliable, ready to learn and grow with your company.
 
 ***
 
@@ -48,3 +48,18 @@ August 2006 - September 2017
 
 ## Education
 
+**Bachelor of Arts (B.A) in Lingustics**, Zaoksky, Tula, Russia\
+Zaoksky Christian Institute of Arts and Sciences, May 2017
+
+**Completed coursework towards Bachelor of Arts (B.A.) in Theology**, Zaoksky, Tula, Russia\
+Zaoksky Theological Seminary, May 2007\
+Forth-year student
+
+**Completed coursework towards Bachelor of Arts (B.A.) in Theology**, Amity, AR, USA\
+Ouachita Hills College, May 2004\
+Second-year student
+
+***
+## Skills
+
+`VS Code` `Git, GitHub` `JavaScript - Basics` `HTML5 - Basics` `CSS - Basics` `Customer Data Confidentiality` `Courteous with Strong Service Mindset` `Calm and Professional Under Pressure` `Collaborative Team Player` `Microsoft Windows and Office` `Remote Technical Support` `Active Learning`
