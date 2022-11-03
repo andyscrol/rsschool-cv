@@ -7,7 +7,7 @@
 
 **Location:** Kobryn, Belarus
 
-**Phone:** [+375292530547](callto:+375292530547)
+**Phone:** [+375292530547](tel:+375292530547)
 
 **E-mail:** [alexey_larin@hotmail.com](mailto:alexey_larin@hotmail.com)
 
@@ -63,3 +63,34 @@ Second-year student
 ## Skills
 
 `VS Code` `Git, GitHub` `JavaScript - Basics` `HTML5 - Basics` `CSS - Basics` `Customer Data Confidentiality` `Courteous with Strong Service Mindset` `Calm and Professional Under Pressure` `Collaborative Team Player` `Microsoft Windows and Office` `Remote Technical Support` `Active Learning`
+
+***
+## Code Example
+
+**Multiply KATA from CODEWARS:**\
+during registration process
+
+```
+function multiply(a, b){
+  return a * b
+}
+```
+
+***
+## Courses
+
+* RS School Course «JavaScript/Front-end. Stage 0» (in progress)
+* [Современный учебник JavaScript](https://learn.javascript.ru) (in progress)
+
+***
+## Languages
+
+**Russian** - `Native`              **English** - `Advanced`
+
+## Certifications
+
+* English - Proficient (C2) - [EF SET](https://www.efset.org/ef-set-50)\
+![EF SET Scrore](/images/EF SET Score C2.jpg)
+
+* English - Advanced (C1) - [Cambridge ESOL](https://www.cambridgeenglish.org/exams-and-tests/advanced/)\
+![CAE](/images/Cambridge ESOL CAE excerpts.jpg)
