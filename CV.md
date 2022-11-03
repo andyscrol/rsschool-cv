@@ -90,7 +90,7 @@ function multiply(a, b){
 ## Certifications
 
 * English - Proficient (C2) - [EF SET](https://www.efset.org/ef-set-50)\
-![EF SET Scrore](/images/EF SET Score C2.jpg)
+![EF SET Scrore](/images/EFSET-Score-C2.jpg)
 
 * English - Advanced (C1) - [Cambridge ESOL](https://www.cambridgeenglish.org/exams-and-tests/advanced/)\
-![CAE](/images/Cambridge ESOL CAE excerpts.jpg)
+![CAE](/images/Cambridge-ESOL-CAE-excerpts.jpg)
