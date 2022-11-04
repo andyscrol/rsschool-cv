@@ -1,6 +1,7 @@
 # Alexey Larin
 
 **Technical Customer Support Specialist**
+
 ***
 
 ## Contact information
@@ -21,7 +22,7 @@
 
 ## Professional Objective
 
-Current student of ***JS/FE course*** looking to join the workforce to gain real-IT-world experience as a **Junior Web Developer / Trainee**. Dedicated worker with excellent communication, time management and computer skills. Ability to complete tasks on time in both individual and team settings. Dependable and reliable, ready to learn and grow with your company.
+Current student of ***JS/FE course*** looking to join the workforce to gain real-IT-world experience as a **Junior Web Developer / Trainee**. Dedicated worker with excellent communication, time management and computer skills. Ability to complete tasks on time in both individual and team settings. Acquired practical knowledge of English while working as a Sales Manager for 5 years in the USA. Dependable and reliable, ready to learn and grow with your company.
 
 ***
 
@@ -69,7 +70,7 @@ Second-year student
 
 **Multiply KATA from CODEWARS:** (*during registration process*)
 
-```
+```javascript
 function multiply(a, b){
   return a * b
 }
