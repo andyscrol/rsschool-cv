@@ -11,3 +11,8 @@ h2{
     height: 250px;
     margin: 5px 5px 20px 10px;
 }
+.radius{
+    background-color: lightgray;
+    padding: 5px;
+    margin-bottom: 5px;
+}
