@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+#top i {
+  font-size: 40px;
+  color: #aebed2;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction :column;
+  max-width: 1024px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 15px rgb(0 0 0 /50%);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3b3f45;
+  background-color: #e8e4d4;
+}
+
+.wrapper {
+  max-width: 1024px;
+  background-color: #fdfefe;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 15px 15px 15px 15px;
+  background-color: #468d98;
+}
+
+.cv-photo {
+  display: block;
+  width: 250px;
+  border-radius: 35px;
+  margin: 40px 10px 20px;
+  box-shadow: 4px 4px 14px rgb(0 0 0 / 25%);
+}
+
+section {
+  margin: 0 15px  30px;
+}
+
+section h2 {
+  text-align: center;
+  margin: 5px 0px 15px;
+  background: linear-gradient(to left, #468d98,  #e8e4d4, #468d98 100%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+  display: inline-block;
+}
+
+.contacts, .skills, .languages, .about, .experience, .education, .projects, .courses, .code, .certifications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+.contact-list, .skills-list, .language-list, .courses-list>ul {
+  list-style: none;
+}
+
+.contact-item {
+  padding: 10px 0px 0px 0px;
+}
+
+.fa-solid, .fa-brands {
+  font-style: italic;
+  width: 30px;
+  font-size: 1.5em;
+  color: #aebed2;
+  margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: #3b3f45;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #97b7a9;
+  text-decoration: underline;
+}
+
+.skills i {
+  font-size: 40px;
+  display: inline-block;
+  transition: 0.5s;
+  color: #aebed2;
+  padding-bottom: 10px;
+}
+
+.skills div {
+  display: inline-block;
+  max-width: 60px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.skills ul>li>div:hover>i {
+  text-align: center;
+  font-size: 40px;
+  display: inline-block;
+  color:  #cad6c2;
+}
+
+.skills ul>li>div:hover {
+  text-align: center;
+  background: linear-gradient(to left, #468d98,  #e8e4d4, #468d98 100%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+  display: inline-block;
+  color:  #cad6c2;
+}
+
+.skills li {
+  width: 33.3333%;
+  float: left;
+}
+
+.country-flag {
+  width: 60px;
+  padding: 10px;
+}
+
+.language-item {
+  height: 40px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  padding: 0;
+  background-color:  #cad6c2;
+}
+
+.title {
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.title span {
+  font-size: 1.5em;
+  text-align: center;
+  color: #7f8c8d;
+}
+ h1 {
+  margin: 0;
+  background-color:#468d98;
+  box-shadow: 5px 5px 15px rgb(0 0 0 / 25%);
+ }
+
+nav {
+  height: 40px;
+  padding: 10px 0;
+  background-color:  #cad6c2;
+  position: sticky;
+  top: 0;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.menu-link {
+  font-weight: bold;
+  position: relative;
+  padding: 0 15px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #17202a;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu-link:hover {
+  color: #468d98;
+  text-decoration: underline;
+}
+
+.about p{
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.container h2 {
+  text-align: center;
+  margin: 5px 0px 15px;
+  background: linear-gradient(to left, #e8e4d4,  #468d98, #e8e4d4 100%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  background-repeat: repeat-x;
+  display: inline-block;
+}
+
+.content {
+  padding: 15px 30px;
+}
+
+.experience-date {
+  padding: 5px 10px 5px 5px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.experience-description {
+  width: 350px;
+  padding: 5px 10px 5px 5px;
+  background-color: #f6f4ee;
+}
+
+.institute, .courses-list, .project-list, .code-example {
+  width: 600px;
+  margin: 15px;
+}
+
+.institute-logo {
+  height: 90px;
+  padding-right: 15px;
+  float: left;
+}
+
+.country-shape {
+  height: 30px;
+  margin-left: 20px;
+}
+
+.institute span {
+  color: #777;
+}
+
+.institute p {
+  margin: 0;
+}
+
+code {
+  display: block;
+  width: 600px;
+  padding: 10px;
+  background-color: #f6f4ee;
+}
+
+.code-example {
+  padding: 10px;
+  background-color: #f6f4ee;
+}
+
+.project-item {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  max-width: 270px;
+  text-align: center;
+}
+
+.project-item img {
+  width: 100%;
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 5px 0;
+  color: #7f8c8d;
+}
+.project-item p {
+  margin: 5px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color:  #468d98;
+}
