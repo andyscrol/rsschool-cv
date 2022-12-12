@@ -1,102 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title> Alexey Larin CV</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
+  <script src="https://kit.fontawesome.com/3075d124c2.js" crossorigin="anonymous"></script>
+  <title> Alexey Larin CV</title>
 </head>
-<body class="page"> 
-<h1>Alexey Larin</h1>
-<h2>Technical Customer Support Specialist</h2>
-<hr>
+<body>
+  <div class="wrapper">
+    <div class="main-container">
+      <aside class="sidebar">
+        <img class="cv-photo" src="./assets/img/profile.jpg" alt="Alexey Larin photo">
 
-<img src="./images/profile.jpg" alt="profile" class="leftimg">
- 
-<h3>Contact information</h3>
+        <section class="contacts" id="contacts">
+          <h2>Contacts</h2>
+            <ul class="contact-list">
+              <li class="contact-item"><i class="fa-solid fa-map-location-dot"></i> Kobryn, Belarus</li>
+              <li class="contact-item"><i class="fa-solid fa-mobile-screen-button"></i><a href="tel:+375292530547" class="link" target="_blank">+375292530547</a></li>
+              <li class="contact-item"><i class="fa-solid fa-at"></i><a href="mailto:alexey_larin@hotmail.com" class="link" target="_blank">alexey_larin@hotmail.com</a></li>
+              <li class="contact-item"><i class="fa-brands fa-telegram"></i><a href="https://t.me/andyscrol" class="link" target="_blank">andyscrol</a></li>
+              <li class="contact-item"><i class="fa-brands fa-discord"></i><a href="https://discord.gg/" class="link" target="_blank">AlexeyLarin#7463</a></li>
+              <li class="contact-item"><i class="fa-brands fa-github"></i><a href="https://github.com/andyscrol" class="link" target="_blank">andyscrol</a></li>
+              <li class="contact-item"><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/alexey-larin-a0945033/" class="link" target="_blank">Alexey Larin</a></li>
+            </ul>
+        </section>
 
-    <p><strong>Location:</strong> Kobryn, Belarus</p>
-    <p><strong>Phone:</strong> <a href="tel:+375292530547">+375292530547</a></p>
-    <p><strong>E-mail:</strong> <a href="mailto:alexey_larin@hotmail.com">alexey_larin@hotmail.com</a></p>
-    <p><strong>Telegram:</strong> <a href="https://t.me/andyscrol">@andyscrol</a></p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/andyscrol">Alexey Larin</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alexey-larin-a0945033/">Alexey Larin</a></p>
+        <section class="skills" id="skills">
+          <h2>Skills</h2>
+            <ul class="skills-list">
+              <li><div><i class="fa-brands fa-html5"></i>HTML5</div></li>
+              <li><div><i class="fa-brands fa-css3-alt"></i>CSS3</div></li>
+              <li><div><i class="fa-brands fa-square-js"></i>JavaScript</div></li>
+              <li><div><i class="fa-brands fa-github"></i>GitHub</div></li>
+              <li><div><i class="fa-brands fa-wordpress"></i>WordPress</div></li>
+            </ul>
+        </section>
 
-<hr>
+        <section class="languages">
+          <h2>Languages</h2>
+            <ul class="language-list">
+              <li class="language-item"><img class="country-flag" src="./assets/img/ru.png" alt="Russian flag"><b> - Native</b></li>
+              <li class="language-item"><img class="country-flag" src="./assets/img/uk.png" alt="UK flag"><b> - C1 (Advanced)</b></li>
+            </ul>
+        </section>
 
-<h3>Experience</h3>
+        <!--<div>
+                    <p>
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer" id="w3c">
+                            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!">
+                        </a>
+                    </p>
 
-    <p><strong>Technical Customer Support Specialist</strong><br />
-    “TVSAT plus” LLC, September 2014 - Present</p>
+                </div>-->
 
-    <ul>
-        <li>Entered commands and observed system functioning to verify correct operations and detect errors.</li>
-        <li>Conferred with users, and conducted computer diagnostics to investigate and resolve problems and to provide technical assistance and support.</li>
-        <li>Set up equipment for employee use, performed and ensured proper installation of cables, operating systems and appropriate software.</li>
-        <li>Installed and performed minor repairs to hardware, software and peripheral equipment, following design and installation specifications.</li>
-        <li>Assisted with new hire orientation and employee training.</li>
-    </ul>
+      </aside>
 
-    <p><strong>Freelance Translator</strong><br>
-    August 2006 - September 2017</p>
+      <div class="container">
+        <header class="header">
+          <div class="title">
+            <p><span>Technical Customer Support Specialist</span></p>
+            <h1>Alexey Larin</h1>
+          </div>
+        </header>
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="#about" class="menu-link">About</a>
+            </li>
+            <li class="menu-item">
+              <a href="#experience" class="menu-link">Experience</a>
+            </li>
+            <li class="menu-item">
+              <a href="#projects" class="menu-link">Projects</a>
+            </li>
+            <li class="menu-item">
+              <a href="#education" class="menu-link">Education</a>
+            </li>
+            <!--<li class="menu-item">
+              <a href="#courses" class="menu-link">Courses</a>
+            </li>-->
+            <li class="menu-item">
+              <a href="#certifications" class="menu-link">Certifications</a>
+            </li>
+            <li class="menu-item">
+              <a href="#skills" class="menu-link">Skills</a>
+            </li>
+            <li class="menu-item">
+              <a href="#contacts" class="menu-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <main class="content">
+          <section class="about" id="about">
+            <h2>About</h2>
+            <p>Current student of <b><i>JS/FE course</i></b> looking to join the workforce to gain real-IT-world experience as a <b>Junior Web Developer / Trainee</b>. Dedicated worker with excellent communication, time management and computer skills. Ability to complete tasks on time in both individual and team settings. Acquired practical knowledge of English while working as a Sales Manager for 5 years in the USA. Dependable and reliable, ready to learn and grow with your company.</p>
+          </section>
 
-    <ul>
-        <li>Followed ethical codes that protected confidentiality of information.</li>
-        <li>Referred to dictionaries, lexicons, encyclopedias and computerized terminology banks for translation accuracy.</li>
-        <li>Edited and revise translated materials.</li>
-        <li>Provided efficient and courteous service to customers at all times.</li>
-    </ul>
+          <section class="experience" id="experience">
+            <h2>Experience</h2>
+            <div>
+              <table class="experience-list">
+                <tbody>
+                  <tr>
+                    <th class="experience-date">September 2014 - Present:</th>
+                    <td class="experience-description">Technical Customer Support Specialist / System Administrator<br>
+                      “TVSAT plus” LLC</td>
+                  </tr>
+                  <tr>
+                    <th class="experience-date">August 2006 - September 2017:</th>
+                    <td class="experience-description">Freelance Translator<br>
+                      "Source of Life" Publishing House (Russia)</td>
+                  </tr>
+                  <tr>
+                    <th class="experience-date">June 2007 - May 2009:<br>
+                      September 2003 - August 2006:</th>
+                    <td class="experience-description">Sales Manager<br>
+                      Review and Herald Publishing Association (USA)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
 
-<h3>Education</h3>
+          <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+              <div style="float:left; padding: 3px;">
+                <a href="https://andyscrol-cv.netlify.app" class="link" target="_blank">
+                  <div class="project-item">
+                      <img src="./assets/img/andyscrol-html-cv.jpg" alt="HTML/CSS CV" width="275" height="175">
+                      <h3>CV Task</h3>
+                      <p>CV layout created with HTML5/CSS3</p>
+                  </div>
+                </a>
+              </div>
+              <div style="float:right; padding: 3px;" >
+                <a href="https://andyscrol.github.io/rsschool-cv/CV" class="link" target="_blank">
+                  <div class="project-item">
+                    <img src="./assets/img/andyscrol-markdown-cv.jpg" alt="Markdown CV" width="275" height="175">
+                    <h3>Markdown & Git</h3>
+                    <p>Simple CV published on GitHub Pages</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
 
-    <p><strong>Bachelor of Arts (B.A) in Lingustics</strong>, Zaoksky, Tula region, Russia<br>
-    Zaoksky Christian Institute of Arts and Sciences, May 2017</p>
+        	<section class="education" id="education">
+            <h2>Education</h2>
+            <div class="institute">
+              <img class="institute-logo" src="./assets/img/zhgi.png" alt="Zaoksky Institute">
+              <p><span><b>2017</b></span><br>
+                  <b>Zaoksky Christian Institute of Arts and Sciences</b> <img class="country-shape" src="./assets/img/russia-flag.png" alt="Russia"><br>
+                  Bachelor of Arts (B.A) in Linguistics
+              </p>
+            </div>
 
-    <p><strong>Completed coursework towards Bachelor of Arts (B.A.) in Theology</strong>, Zaoksky, Tula region, Russia<br>
-    Zaoksky Theological Seminary, May 2007<br>
-    Forth-year student</p>
+            <div class="institute">
+              <img class="institute-logo" src="./assets/img/new_zaouniver.png" alt="Zaoksky Seminary">
+              <p><span><b>2007</b></span><br>
+                <b>Zaoksky Theological Seminary</b> <img class="country-shape" src="./assets/img/russia-flag.png" alt="Russia"><br>
+                  Completed coursework towards Bachelor of Arts (B.A.) in Theology<br>
+                  Forth-year student
+              </p>
+            </div>
 
-    <p><strong>Completed coursework towards Bachelor of Arts (B.A.) in Theology</strong>, Amity, AR, USA<br>
-    Ouachita Hills College, May 2004<br>
-    Second-year student</p>
+            <div class="institute">
+              <img class="institute-logo" src="./assets/img/new_ohc.png" alt="Ouachita Hills College">
+              <p><span><b>2004</b></span><br>
+                <b>Ouachita Hills College</b> <img class="country-shape" src="./assets/img/usa-flag.png" alt="USA"><br>
+                  Completed coursework towards Bachelor of Arts (B.A.) in Theology<br>
+                  Second-year student
+              </p>
+            </div>
+          </section>
 
-<h3>Skills</h3>
+          <!--<section class="courses" id="courses">
+                        <h2>Courses</h2>
+                        <div class="courses-list">
+                            <ul>
+                                <li>RS School Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+                                <li><a href="https://learn.javascript.ru">Современный учебник JavaScript</a> (in progress)</li>
+                            </ul>
+                        </div>
+                    </section>-->
 
-    <p><code style="border-radius: 8px;" class="radius">VS Code</code> <code style="border-radius: 8px;" class="radius">Git, GitHub</code> <code style="border-radius: 8px;" class="radius">JavaScript - Bacics</code> <code style="border-radius: 8px;" class="radius">HTML - Basics</code> <code style="border-radius: 8px;" class="radius">CSS - Basics</code></p>
+          <section class="code">
+            <h2>Code Example</h2>
+            <code>
+              <pre><b>function</b> multiply(a, b){<br>    <b>return</b> a * b<br>}</pre>
+            </code>
+          </section>
 
-<h3>Code Example</h3>
+          <section class="certifications" id="certifications">
+            <h2>Certifications</h2><br>
+            <div>
+              <div style="float:left; padding: 3px;" ><a href="https://www.efset.org/cert/BVupgw" target="_blank"><img src="./assets/img/EFSET-Score-C2.jpg" alt="EF SET Score" width="270" height="135"></a></div>
+              <div style="float:right; padding: 3px;"><a href="./assets/img/CAE_full.jpg" target="_blank"><img src="./assets/img/Cambridge-ESOL-CAE-excerpts.jpg" alt="CAE" width="270" height="135"></a></div>
+            </div>
+          </section>
 
-    <p><strong>Multiply KATA from CODEWARS:</strong> (<em>during registration process</em>)</p>
-    <div class="code">
-        <code><b>function</b> multiply(a, b){<br>
-            <b>return</b> a * b<br>
-            }</code>
+          <a href="#" id="top"><i class="fa-solid fa-circle-up"></i></a>
+        </main>
+      </div>
     </div>
-
-<h3>Courses</h3>
-
-    <ul>
-        <li>RS School Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-        <li><a href="https://learn.javascript.ru">Современный учебник JavaScript</a> (in progress)</li>
-    </ul>
-
-    <h3>Languages</h3>
-
-    <p><strong>Russian</strong> - <code style="border-radius: 8px;" class="radius">Native</code> <strong>English</strong> - <code style="border-radius: 8px;" class="radius">Advanced/Proficient</code></p>
-
-<hr>
-
-<h3>Certifications</h3>
-
-    <ul>
-        <li>
-            <p>English - Proficient (C2) - <a href="https://www.efset.org/ef-set-50">EF SET</a> - October 2022<br>
-        <img src="/rsschool-cv/images/EFSET-Score-C2.jpg" alt="EF SET Scrore"></p>
-        </li>
-        <li>
-            <p>English - Advanced (C1) - <a href="https://www.cambridgeenglish.org/exams-and-tests/advanced/">Cambridge ESOL</a> - June 2010<br>
-        <img src="/rsschool-cv/images/Cambridge-ESOL-CAE-excerpts.jpg" alt="CAE"></p>
-        </li>
-    </ul>
-
+    <footer class="footer">
+      <div class="footer-item">
+        <i class="fa-brands fa-github"></i><a href="https://github.com/andyscrol" class="link" target="_blank">andyscrol</a>
+      </div>
+      <div class="footer-item">
+        <time datetime="2022-11-25">2022</time>
+      </div>
+      <div class="footer-item">
+        <a href="https://rs.school/js/" class="link" title="RSSchool site" target="_blank"><img src="./assets/svg/rs_school_js.svg" alt="RSSchool logo" height="30">   </a>
+      </div>
+      <div class="footer-item">
+        <p>
+          <a href="http://jigsaw.w3.org/css-validator/validator?lang=ru&profile=css3svg&uri=andyscrol-cv.netlify.app&usermedium=all&vextwarning=&warning=1" title="W3C Validator" target="_blank">
+            <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!">
+          </a>
+        </p>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
