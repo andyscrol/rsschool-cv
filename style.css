@@ -251,6 +251,16 @@ nav {
   background-color: #f6f4ee;
 }
 
+.left {
+  float: left;
+  padding: 3px;
+}
+
+.right {
+  float: right;
+  padding: 3px;
+}
+
 .institute, .courses-list, .project-list, .code-example {
   width: 600px;
   margin: 15px;
@@ -314,4 +324,10 @@ h3 {
   align-items: center;
   padding: 10px;
   background-color:  #468d98;
+}
+
+.validator {
+  border:0;
+  width:88px;
+  height:31px
 }
